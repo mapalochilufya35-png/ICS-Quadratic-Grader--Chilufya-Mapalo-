@@ -14,7 +14,15 @@ Score: <input id="s">
 <div id="r2"></div>
 
 <script>
-// Coming soon
+function calc() {
+    let a = Number(document.getElementById('a').value);
+    let b = Number(document.getElementById('b').value);
+    let c = Number(document.getElementById('c').value);
+    let d = b*b - 4*a*c;
+    document.getElementById('r1').innerHTML = "D=" + d;
+}
+
+// Grade converter coming soon
 </script>
 </body>
 </html>

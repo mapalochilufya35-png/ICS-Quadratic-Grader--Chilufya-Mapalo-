@@ -22,7 +22,11 @@ function calc() {
     document.getElementById('r1').innerHTML = "D=" + d;
 }
 
-// Grade converter coming soon
+function grad() {
+    let s = Number(document.getElementById('s').value);
+    let g = s>=85?'A+':s>=75?'A':s>=65?'B+':s>=60?'B':s>=55?'C+':s>=50?'C':'D';
+    document.getElementById('r2').innerHTML = "Grade: " + g;
+}
 </script>
 </body>
 </html>

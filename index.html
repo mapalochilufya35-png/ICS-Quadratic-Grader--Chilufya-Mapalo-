@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <h2>Quadratic Solver</h2>
 a: <input id="a">
 b: <input id="b"> 
@@ -15,20 +14,7 @@ Score: <input id="s">
 <div id="r2"></div>
 
 <script>
-function calc() {
-    let a = Number(document.getElementById('a').value);
-    let b = Number(document.getElementById('b').value);
-    let c = Number(document.getElementById('c').value);
-    let d = b*b - 4*a*c;
-    document.getElementById('r1').innerHTML = "D=" + d;
-}
-
-function grad() {
-    let s = Number(document.getElementById('s').value);
-    let g = s>=85?'A+':s>=75?'A':s>=65?'B+':s>=60?'B':s>=55?'C+':s>=50?'C':'D';
-    document.getElementById('r2').innerHTML = "Grade: " + g;
-}
+// Coming soon
 </script>
-
 </body>
 </html>
